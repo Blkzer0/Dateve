@@ -32,6 +32,7 @@ read -p " Do you wish to continue? [y,n]:" fish
 if [ $fish == 'y' ]
 then
 apt-get dist-upgrade
+apt autoremove -y 
 sleep 3
 echo " Rebooting system "
 sleep 3
