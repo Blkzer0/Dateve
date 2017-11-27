@@ -1,6 +1,10 @@
 #!/bin/bash
 # Dateve - System Updater with menu
 # Written by: Blkzer0. Version 1.0
+if [[ $EUID -ne 0 ]]; then
+	echo "ERROR! Run this script with root user!"
+	exit 1
+fi
 
 ueverything(){
 echo " Updating....."
