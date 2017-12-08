@@ -18,8 +18,6 @@ sleep 2
 echo "Updating Exploit Database"
 searchsploit --update
 sleep 1
-echo "Updating Ruby And Python"
-ruby
 echo "Updating Database, may take awhile"
 updatedb
 echo "Database update complete,Running cleanup"
