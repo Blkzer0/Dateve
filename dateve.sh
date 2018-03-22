@@ -52,11 +52,11 @@ searchsploit --update
 echo " Exploits Updated!"
 }
 
-ruby(){
-sudo -H pip install pipdate #installs pipdate if you dont have it already.
-sudo -H pipdate #upgrades all dependencies [until pip implements --upgrade flag.] #May break some dependencies.
-gem update
-}
+#ruby(){
+#sudo -H pip install pipdate #installs pipdate if you dont have it already.
+#sudo -H pipdate #upgrades all dependencies [until pip implements --upgrade flag.] #May break some dependencies.
+#gem update
+#}
 
 update(){
 echo " Updating Database, May take awhile...."
