@@ -9,4 +9,4 @@ Menu choices:
 + Update and Clean Apt
 + Update everything
 
-Will update script if needed. Tested on Parrot OS x64.
+
